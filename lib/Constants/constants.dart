@@ -7,6 +7,7 @@ class AppConstants {
     return TextStyle(
       fontSize: fontSize,
       color: color,
+      fontWeight: fontWeight,
     );
   }
 }

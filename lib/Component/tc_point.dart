@@ -9,12 +9,14 @@ Widget privacyPolicyPoint(
       Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("$index.", style: AppConstants.textStyle()),
+          Text("$index.",
+              style: AppConstants.textStyle(fontWeight: FontWeight.w600)),
           const SizedBox(
             width: 10,
           ),
           Text(point,
-              style: AppConstants.textStyle(fontWeight: FontWeight.w900,fontSize: 18)),
+              style: AppConstants.textStyle(
+                  fontWeight: FontWeight.w600, fontSize: 18)),
         ],
       ),
       Text(message, style: AppConstants.textStyle()),
